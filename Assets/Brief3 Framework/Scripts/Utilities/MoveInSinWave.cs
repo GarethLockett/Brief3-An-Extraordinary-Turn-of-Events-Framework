@@ -36,6 +36,7 @@ public class MoveInSinWave : MonoBehaviour
     }
 
     private void Update()
+    //private void FixedUpdate()
     {
         // Update the time passed.
         this.timePassed += Time.deltaTime;
